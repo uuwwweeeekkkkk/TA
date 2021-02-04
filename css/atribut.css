@@ -1,0 +1,130 @@
+
+.tabel {
+    color: #444;
+    border-collapse: collapse;
+    width: 80%;
+	border: 1px solid #aaa;
+}
+
+.tabel tr th{
+    background: rgb(65, 65, 65);
+    color: #fff;
+    font-weight: normal;
+}
+
+.tabel, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.tabel tr:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.tabel tr:nth-child(even) {
+    background-color: white;
+}
+
+.tabel_biasa{
+	border-collapse: collapse;
+}
+ 
+table.tabel_biasa th th , table.tabel_biasa tr td{
+	padding: 5px 7px;
+	text-align: left;
+}
+
+.textbox{
+    width: 160px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: .3s;
+    
+}
+
+.textbox:focus{
+    border-color: rgb(65, 65, 65);;
+    box-shadow: 0 0 8px 0  rgb(65, 65, 65);;
+}
+
+.tombol {
+	height: 27px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 0;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 12px;
+	transition: 0.3s;
+	opacity: 12;
+	word-wrap: break-word;
+	margin: 2px;
+	padding: 0px 12px;
+	border-radius: 4px;
+    font-weight: 700;
+    color: white;
+}
+
+.abu{
+	background-color: grey;
+	box-shadow: 0 0 1px 0 blue;
+}
+
+
+
+.hijau{
+	background-color: rgb(0, 80, 0);
+	text-decoration: none;
+}
+
+.biru{
+	background-color: rgb(21, 111, 230);
+	text-decoration: none;
+}
+
+.merah{
+	background-color: #FF0000;
+	color: white;
+	text-decoration: none;
+}
+
+.orange{
+	background-color: orange;
+	text-decoration: none;
+
+}
+
+
+.tombol:hover{
+	background-color: #e3e3e3;
+}
+
+.merah:hover{
+	background-color: #B22222;
+	transition: 0.3s;
+}
+
+.biru:hover{
+	background-color: #68B0D4;
+	transition: 0.3s;
+}
+
+.hijau:hover{
+	background-color: #5AC658;
+	transition: 0.3s;
+}
+
+.orange:hover{
+	background-color: #D69D00;
+	transition: 0.3s;
+}
+
+.abu:hover{
+	background-color: #a5a5a5;
+	transition: 0.3s;
+}
+
